@@ -539,7 +539,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         </div>
 
         {/* Hover Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300" />
+        <div className="absolute inset-0 opacity-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300" />
       </div>
 
       {/* Product Info */}
